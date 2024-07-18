@@ -9,6 +9,6 @@ export default defineConfig({
     emptyOutDir: true, // also necessary
   },
   base: process.env.NODE_ENV === 'production'
-    ? 'https://vvaffl4.github.io/portfolio/' // prod
+    ? './' // prod
     : '/', // dev
 })
